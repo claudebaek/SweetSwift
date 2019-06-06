@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:EasyBrowser-end/WebBrowser/WebBrowser.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:EasyBrowser-end/EasyBrowser.xcodeproj">
+   </FileRef>
+</Workspace>

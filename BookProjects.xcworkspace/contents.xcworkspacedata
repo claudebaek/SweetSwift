@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Level 2/BookPlayground.playground">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Level 3">
+      <FileRef
+         location = "container:Level 3/UnitConverter-end/UnitConverter.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Level 3/Clock/Clock.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Level 3/Stopwatch-end/Stopwatch.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Level 4">
+      <FileRef
+         location = "group:Level 4/WebBrowser/EasyBrowser-end/WebBrowser/WebBrowser.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Level 4/Locator/Locator/Locator.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Level 4/Gesturizer/Gesturizer/Gesturizer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Level 4/FingerPainter/Painter/Painter.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Level 4/NoiseMaker/SoundPlayer/SoundMaker.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Level 5">
+      <FileRef
+         location = "group:Level 5/TopMediaViewer/Project/TopMediaViewer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Level 5/1.Flashcards/CapitalCards/CapitalCards.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Level 5/3.TravelDiary/Journal-end/Diary.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
