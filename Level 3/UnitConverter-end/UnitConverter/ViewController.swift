@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         super.viewDidLoad()
         let row = initialPickerRow()
         celsiusPicker.selectRow(row, inComponent: 0, animated: false)
-        pickerView(pickerView: celsiusPicker, didSelectRow: row, inComponent: 0)
+        pickerView(celsiusPicker, didSelectRow: row, inComponent: 0)
     }
 
     func initialPickerRow() -> Int {
@@ -38,12 +38,12 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         let celsiusValue = temperatureRange.values[row]
         return "\(celsiusValue)°C"
     }
     
-    func pickerView(pickerView: UIPickerView, didSelectRow row: Int,
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int,
         inComponent component: Int) {
         displayConvertedTemperatureForRow(row: row)
         saveSelectedRow(row: row)
