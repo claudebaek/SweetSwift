@@ -10,4 +10,9 @@ import Foundation
 
 class Clock {
     let date = Date()
+    
+    var comDate: Date {
+        
+        return Date()
+    }
 }

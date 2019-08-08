@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Clock
+//  SoundMaker
 //
-//  Created by Claude,Baek on 08/10/2017.
-//  Copyright © 2017 Revival. All rights reserved.
+//  Created by 백두산(DooSan Baek) on 08/08/2019.
+//  Copyright © 2019 백두산(DooSan Baek). All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

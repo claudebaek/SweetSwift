@@ -1,4 +1,4 @@
-=
+
 
 import UIKit
 
@@ -17,6 +17,8 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         let row = initialPickerRow()
         celsiusPicker.selectRow(row, inComponent: 0, animated: false)
         pickerView(celsiusPicker, didSelectRow: row, inComponent: 0)
+        
+        let btn = UIButton()
     }
 
     func initialPickerRow() -> Int {
@@ -35,6 +37,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         let celsiusValue = temperatureRange.values[row]
+        
         return "\(celsiusValue)°C"
     }
     
@@ -56,4 +59,3 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     }
     
 }
-

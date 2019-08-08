@@ -21,19 +21,16 @@
       location = "container:"
       name = "Level 4">
       <FileRef
-         location = "group:Level 4/WebBrowser/EasyBrowser-end/WebBrowser/WebBrowser.xcodeproj">
+         location = "group:SoundMaker/SoundMaker.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:WebBrowser/WebBrowser.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Level 4/Locator/Locator/Locator.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Level 4/Gesturizer/Gesturizer/Gesturizer.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Level 4/FingerPainter/Painter/Painter.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Level 4/NoiseMaker/SoundPlayer/SoundMaker.xcodeproj">
       </FileRef>
    </Group>
    <Group
