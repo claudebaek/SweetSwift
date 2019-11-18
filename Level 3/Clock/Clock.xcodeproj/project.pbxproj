@@ -37,29 +37,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1158E1B922FABCBE00BB52CA /* aa */ = {
-			isa = PBXGroup;
-			children = (
-				514FED421F8A016B00C99526 /* AppDelegate.swift */,
-				514FED541F8A188B00C99526 /* Clock.swift */,
-			);
-			path = aa;
-			sourceTree = "<group>";
-		};
-		1158E1BA22FABCF400BB52CA /* abc */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = abc;
-			sourceTree = "<group>";
-		};
-		1158E1BB22FABCFF00BB52CA /* test */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = test;
-			sourceTree = "<group>";
-		};
 		514FED361F8A016B00C99526 = {
 			isa = PBXGroup;
 			children = (
@@ -79,11 +56,10 @@
 		514FED411F8A016B00C99526 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
-				1158E1BA22FABCF400BB52CA /* abc */,
 				514FED461F8A016B00C99526 /* Main.storyboard */,
-				1158E1B922FABCBE00BB52CA /* aa */,
+				514FED421F8A016B00C99526 /* AppDelegate.swift */,
+				514FED541F8A188B00C99526 /* Clock.swift */,
 				514FED441F8A016B00C99526 /* ViewController.swift */,
-				1158E1BB22FABCFF00BB52CA /* test */,
 				514FED491F8A016B00C99526 /* Assets.xcassets */,
 				514FED4B1F8A016B00C99526 /* LaunchScreen.storyboard */,
 				514FED4E1F8A016B00C99526 /* Info.plist */,

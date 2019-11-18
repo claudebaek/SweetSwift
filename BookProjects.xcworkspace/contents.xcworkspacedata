@@ -4,6 +4,9 @@
    <FileRef
       location = "group:Level 2/BookPlayground.playground">
    </FileRef>
+   <FileRef
+      location = "group:/Users/claude/Library/Autosave Information/Level 2.playground">
+   </FileRef>
    <Group
       location = "container:"
       name = "Level 3">
