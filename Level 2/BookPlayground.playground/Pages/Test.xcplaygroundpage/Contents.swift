@@ -1,6 +1,6 @@
 //: [Previous](@previous)
 
-import Foundation
+import UIKit
 
 var str = "Hello, playground"
 
@@ -49,8 +49,6 @@ print(first?.composer)
 classic is Classic
 classic is Music
 classic is Hiphop
-let test = classic as Music
-
 
 for item in playList {
     if let classic = item as? Classic {
@@ -144,3 +142,16 @@ class Receiver {
 }
 
 let r = Receiver()
+
+
+
+protocol someProtocol {
+    func doSome()
+}
+
+class TestClass {
+    func doSome() {
+            print("doSome")
+    }
+}
+
