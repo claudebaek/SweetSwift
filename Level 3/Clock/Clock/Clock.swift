@@ -11,8 +11,7 @@ import Foundation
 class Clock {
     let date = Date()
     
-    var comDate: Date {
-        
+    var currentDate: Date {
         return Date()
     }
 }

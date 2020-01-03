@@ -16,11 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let formatter = DateFormatter()    // DateFormatter 클래스의 인스턴스를 만들고
-        formatter.timeStyle = .short      // 시간표시 스타일을 ShortStyle 로 지정한다.
-        currentTime.text = formatter.string(from: clock.date)
+        updateTimeLabel()
         
-        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.updateTimeLabel), name: NSNotification.Name("fore"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.updateTimeLabel), name: Notification.Name("fore"), object: nil)
         
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimeLabel), userInfo: nil, repeats: true)
     }
@@ -28,7 +26,7 @@ class ViewController: UIViewController {
     @objc func updateTimeLabel() {
         let formatter = DateFormatter()
         formatter.timeStyle = .medium
-        currentTime.text = formatter.string(from: clock.comDate)
+        currentTime.text = formatter.string(from: clock.currentDate)
     }
     
     deinit {
